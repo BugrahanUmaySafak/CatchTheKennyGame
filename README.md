@@ -65,20 +65,6 @@ The final version includes:
 - Updated UI labels for time, score, and high score
 - Cleaner Kenny management using an outlet collection
 
-## Improvements Over the Original Course Project
-
-Compared to the original course version, this project now includes:
-
-- Replacing 9 separate image view outlets with a single outlet collection
-- Removing repetitive gesture recognizer setup code
-- Refactoring long `viewDidLoad()` logic into smaller helper methods
-- Using constants for game duration, hide interval, and storage keys
-- Safer timer invalidation and reset handling
-- Better organization with `startGame()`, `endGame()`, and UI update helpers
-- More modern and readable Swift style
-- Preventing layout issues caused by hidden views inside stack views
-- Preventing the same Kenny from feeling "stuck" in place during gameplay by improving the random appearance logic
-
 ## What I Practiced
 
 With this project, I practiced:
